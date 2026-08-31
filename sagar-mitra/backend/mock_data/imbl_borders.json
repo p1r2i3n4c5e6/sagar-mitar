@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "India-Sri-Lanka-IMBL",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "India-Sri Lanka IMBL — Palk Strait",
+        "buffer_nm": 2.0,
+        "alert_level": "CRITICAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [80.250, 10.800],
+          [80.200, 10.600],
+          [80.150, 10.400],
+          [80.050, 10.100],
+          [79.950,  9.800],
+          [79.800,  9.500],
+          [79.650,  9.200]
+        ]
+      }
+    }
+  ]
+}

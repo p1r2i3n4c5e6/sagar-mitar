@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "name": "INCOIS-PFZ-Tamil-Nadu",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-BAY-01",
+        "name": "Palk Bay Deep Shoal",
+        "species": "Tuna & Mackerel",
+        "chlorophyll": "4.2 mg/m³",
+        "sst": "28.4°C",
+        "wave_height": 0.9,
+        "wind_kmh": 18,
+        "status": "OPTIMAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.08, 10.51],[80.16, 10.51],[80.16, 10.59],[80.08, 10.59],[80.08, 10.51]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-BAY-02",
+        "name": "Coromandel Ridge",
+        "species": "Sardine & Seer Fish",
+        "chlorophyll": "3.8 mg/m³",
+        "sst": "27.9°C",
+        "wave_height": 1.2,
+        "wind_kmh": 22,
+        "status": "OPTIMAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.31, 11.06],[80.39, 11.06],[80.39, 11.14],[80.31, 11.14],[80.31, 11.06]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-BAY-03",
+        "name": "Gulf of Mannar Bloom",
+        "species": "Prawn & Pomfret",
+        "chlorophyll": "5.1 mg/m³",
+        "sst": "29.2°C",
+        "wave_height": 0.7,
+        "wind_kmh": 14,
+        "status": "OPTIMAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.01, 9.06],[79.09, 9.06],[79.09, 9.14],[79.01, 9.14],[79.01, 9.06]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-ROUGH-04",
+        "name": "Offshore Deep Trench",
+        "species": "Barracuda",
+        "chlorophyll": "2.1 mg/m³",
+        "sst": "26.5°C",
+        "wave_height": 3.8,
+        "wind_kmh": 47,
+        "status": "HAZARDOUS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.36, 10.16],[80.44, 10.16],[80.44, 10.24],[80.36, 10.24],[80.36, 10.16]]]
+      }
+    }
+  ]
+}

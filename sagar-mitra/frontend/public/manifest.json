@@ -1,0 +1,14 @@
+{
+  "name": "SAGAR-MITRA",
+  "short_name": "SAGAR-MITRA",
+  "description": "Low-bandwidth fisheries advisory & fleet safety system",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#00aedb",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/anchor.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "categories": ["navigation", "utilities"]
+}
