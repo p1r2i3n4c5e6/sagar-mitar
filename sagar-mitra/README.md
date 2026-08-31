@@ -84,13 +84,19 @@ SAGAR-MITRA integrates external marine data services, SMS gateway APIs, custom b
   - `2`: Query safe return bearing to nearest harbor.
   - `SOS`: Log emergency distress coordinates and dispatch rescue acknowledgment.
 
-### 2. 🌊 Marine & Ocean Data APIs (External)
-- **Open-Meteo Marine API**: `https://marine-api.open-meteo.com/v1/marine`  
-  *Provides live wave height, swell wave height, and wave period.*
-- **Open-Meteo Weather Forecast API**: `https://api.open-meteo.com/v1/forecast`  
-  *Provides real-time wind speed (10m), wind gusts, and wind direction.*
-- **NOAA Tides & Currents API**: `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter`  
-  *Provides real-time tide height predictions, water levels, and tide status.*
+### 🛰️ External Ocean Data Integration Stack
+
+* **Marine Dynamics Engine** `Open-Meteo Marine API`
+  > 🔗 `https://marine-api.open-meteo.com/v1/marine`  
+  > 📊 **Metrics:** Live Wave Height, Swell Waves, Peak Wave Period.
+
+* **Atmospheric Wind Vector Feed** `Open-Meteo Forecast API`
+  > 🔗 `https://api.open-meteo.com/v1/forecast`  
+  > 💨 **Metrics:** Surface Wind Speed (10m), Wind Gusts, Wind Bearing/Direction.
+
+* **Hydrographic & Tidal Feed** `NOAA Tides & Currents API`
+  > 🔗 `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter`  
+  > 🌊 **Metrics:** High/Low Tide Predictions, Water Levels, Dynamic Tidal Phase.
 
 ### 3. ⚙️ Internal Backend REST APIs
 - `GET /api/ocean/analyze`: Analyzes sea conditions (`GREEN_SAFE`, `YELLOW_CAUTION`, `RED_LOCKDOWN`) and ranks candidate fishing spots.
