@@ -254,6 +254,8 @@ sagar-mitra/
 
 ---
 
+## Made by: Vishal Choudhary, Sheetal Gupta, Prince Chaurasiya and Vedansh Singhal
+
 ## 📜 License
 
 This project is open-source under the MIT License. Developed for coastal fishermen safety and sustainable marine fisheries management.
