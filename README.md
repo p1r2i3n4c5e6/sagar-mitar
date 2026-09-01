@@ -155,7 +155,7 @@ Fishermen using feature phones can text the system via SMS:
 2. Create and activate a Python virtual environment:
    ```bash
    python3 -m venv venv
-   source venv/bin/activate        # On Windows: venv\Scripts\activate
+   source venv/bin/activate # On Windows: venv\Scripts\activate
    ```
 
 3. Install required Python packages:
